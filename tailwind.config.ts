@@ -105,9 +105,9 @@ export default {
 				'satoshi': ['Satoshi', 'sans-serif'], // Ajout de la police Satoshi
 			},
 			letterSpacing: {
-				'tighter-h1': '-0.7em',
-				'tighter-h2': '-0.5em', 
-				'tighter-h3': '-0.3em',
+				'tighter-h1': '-0.07em', // Correction: -0.7em → -0.07em
+				'tighter-h2': '-0.05em', // Correction: -0.5em → -0.05em
+				'tighter-h3': '-0.03em', // Correction: -0.3em → -0.03em
 			},
 			backgroundImage: {
 				'cta-gradient': 'linear-gradient(to bottom, #F24043 0%, #EB3235 80%)',
