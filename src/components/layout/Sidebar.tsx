@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { Library, Settings, Help, LogOut } from "lucide-react";
+import { Library, Settings, HelpCircle, LogOut } from "lucide-react";
 
 interface SidebarLinkProps {
   icon: React.ElementType;
@@ -41,7 +41,7 @@ const Sidebar: React.FC = () => {
         <div className="space-y-1">
           <SidebarLink icon={Library} label="Bibliothèque" active={true} />
           <SidebarLink icon={Settings} label="Paramètres" />
-          <SidebarLink icon={Help} label="Aide" />
+          <SidebarLink icon={HelpCircle} label="Aide" />
         </div>
       </div>
       
