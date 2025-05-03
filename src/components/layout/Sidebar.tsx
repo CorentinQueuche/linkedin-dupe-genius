@@ -27,14 +27,14 @@ const Sidebar: React.FC = () => {
   return (
     <div className="min-h-screen w-64 bg-linkedin-sidebar border-r border-linkedin-border flex flex-col">
       <div className="p-4 border-b border-linkedin-border">
-        <h1 className="text-xl font-semibold text-linkedin-text flex items-center">
+        <h1 className="text-xl font-semibold text-linkedin-text tracking-tighter-h1 flex items-center">
           <span className="text-linkedin-primary mr-2">Li</span>
           LinkedIn Duplicator
         </h1>
       </div>
       
       <div className="p-4">
-        <Button className="w-full bg-linkedin-primary hover:bg-linkedin-primary/90 text-white mb-6">
+        <Button variant="cta" className="w-full mb-6">
           Nouveau duplicat
         </Button>
         

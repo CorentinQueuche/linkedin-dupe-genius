@@ -32,7 +32,7 @@ const ResultPreview: React.FC<ResultPreviewProps> = ({ content, onSave }) => {
 
   return (
     <div className="p-6 h-full flex flex-col">
-      <h2 className="text-lg font-semibold text-linkedin-text mb-4">Aperçu du rendu</h2>
+      <h2 className="text-lg font-semibold text-linkedin-text tracking-tighter-h2 mb-4">Aperçu du rendu</h2>
       
       <div className="flex-grow bg-white border border-linkedin-border rounded-md p-4 mb-4 overflow-auto">
         {content ? (
@@ -55,7 +55,8 @@ const ResultPreview: React.FC<ResultPreviewProps> = ({ content, onSave }) => {
           Copier
         </Button>
         <Button
-          className="flex-1 bg-linkedin-primary hover:bg-linkedin-primary/90 text-white"
+          variant="cta"
+          className="flex-1"
           disabled={!content}
           onClick={handleSave}
         >
