@@ -66,7 +66,7 @@ export default {
 				linkedin: {
 					background: "#F7F6F9",
 					sidebar: "#FAFAFA",
-					primary: "#E5383B",
+					primary: "#EB3235", // Mise à jour vers la nouvelle couleur d'accent 
 					text: "#222222",
 					standard: "#333333",
 					border: "#E0E0E0",
@@ -102,6 +102,18 @@ export default {
 			},
 			fontFamily: {
 				'inter': ['Inter', 'sans-serif'],
+				'satoshi': ['Satoshi', 'sans-serif'], // Ajout de la police Satoshi
+			},
+			letterSpacing: {
+				'tighter-h1': '-0.7em',
+				'tighter-h2': '-0.5em', 
+				'tighter-h3': '-0.3em',
+			},
+			backgroundImage: {
+				'cta-gradient': 'linear-gradient(to bottom, #F24043 0%, #EB3235 80%)',
+			},
+			boxShadow: {
+				'inner-light': 'inset 0 10px 10px -5px rgba(255, 255, 255, 0.3)',
 			},
 		}
 	},

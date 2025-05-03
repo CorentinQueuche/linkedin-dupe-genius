@@ -18,5 +18,47 @@ body {
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em rgba(229, 56, 59, 0.6));
+  filter: drop-shadow(0 0 2em rgba(235, 50, 53, 0.6));
 }
+
+/* Classes supplémentaires pour le design system */
+
+/* Layout principal à 3 colonnes */
+.layout-main {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.sidebar-column {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.content-column {
+  flex-grow: 1;
+  padding: 1.5rem;
+}
+
+.preview-column {
+  width: 400px;
+  flex-shrink: 0;
+  border-left: 1px solid var(--linkedin-border);
+  padding: 1.5rem;
+}
+
+/* Espacement standardisé */
+.spacing-xs { margin: 0.25rem; }
+.spacing-sm { margin: 0.5rem; }
+.spacing-md { margin: 1rem; }
+.spacing-lg { margin: 1.5rem; }
+.spacing-xl { margin: 2rem; }
+.spacing-2xl { margin: 3rem; }
+
+/* Padding standardisé */
+.padding-xs { padding: 0.25rem; }
+.padding-sm { padding: 0.5rem; }
+.padding-md { padding: 1rem; }
+.padding-lg { padding: 1.5rem; }
+.padding-xl { padding: 2rem; }
+.padding-2xl { padding: 3rem; }
